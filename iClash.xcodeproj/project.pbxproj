@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F2D81BF79D0E0E8C89D8B1 /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E93E808EAF15B45F7A484F /* ConfigManager.swift */; };
+		1207DCC9F75D9ECC745BFD4C /* iClashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B32C655B04E418D631006 /* iClashApp.swift */; };
+		2FBA8122A2B8A2773F12F928 /* ProxyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CB18F32192A8885F1F19B /* ProxyManager.swift */; };
+		33D064BCBD2B5D8CAD900290 /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976B9815C475239FE9DD60B9 /* RulesView.swift */; };
+		499B1460955384F9FAF8D0B1 /* ClashConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405A7C4D66428D1A65C6650E /* ClashConfig.swift */; };
+		4E36D9BB139F96C1CB2810E8 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584E1CE0DACE4553B1687D0F /* NetworkExtension.framework */; };
+		4F678374EFD8FC713ED5A0FD /* ProxyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91FBE0D8826D8D599D9D7BA /* ProxyModels.swift */; };
+		544DC1B3E539251A692EF066 /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33B698038F2264ACABDC1F2 /* LogsView.swift */; };
+		6224C9AAA0C4D7FC15FF1334 /* NodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BEA47C3145C4F1CC35A4E7 /* NodesView.swift */; };
+		82575C1A0208131A83E0688C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EB2CFACE3BB40F4D26F278 /* ContentView.swift */; };
+		8AA04BA176F171D6561149BB /* ProxyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91FBE0D8826D8D599D9D7BA /* ProxyModels.swift */; };
+		9FF37DF57DC68CDCB8A1413B /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7187E783495CFCD48CA60032 /* PacketTunnelProvider.swift */; };
+		C00A36A2FD6FED925F4DEF5C /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059B7EF7921EF7A5F1747D4E /* ConfigView.swift */; };
+		C1C0EE6BC7A223B19734A3DA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FA284C231050C75F913916 /* HomeView.swift */; };
+		C6101F7733B1EBB4E8B834C4 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584E1CE0DACE4553B1687D0F /* NetworkExtension.framework */; };
+		EE53D1BC2068EDF1F267EF26 /* ClashConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405A7C4D66428D1A65C6650E /* ClashConfig.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		493F3DC75133217507443160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD55E0EAA0D1AA129545829B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B118B54732EC30060B34BC09;
+			remoteInfo = iClash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056B22452B6F35D3D5771F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		059B7EF7921EF7A5F1747D4E /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
+		13FA284C231050C75F913916 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		239C7F5A8323DD0BA5B11E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		405A7C4D66428D1A65C6650E /* ClashConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClashConfig.swift; sourceTree = "<group>"; };
+		4862E8A57B215E8E33652AC1 /* iClashExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iClashExtension.entitlements; sourceTree = "<group>"; };
+		494CB18F32192A8885F1F19B /* ProxyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyManager.swift; sourceTree = "<group>"; };
+		56CD2A15DEEC204DBA13B146 /* NetworkExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NetworkExtension.entitlements; sourceTree = "<group>"; };
+		584E1CE0DACE4553B1687D0F /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		7187E783495CFCD48CA60032 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		80E93E808EAF15B45F7A484F /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
+		968917706253FC10F0CE4473 /* iClash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iClash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		976B9815C475239FE9DD60B9 /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
+		A91FBE0D8826D8D599D9D7BA /* ProxyModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyModels.swift; sourceTree = "<group>"; };
+		B0BEA47C3145C4F1CC35A4E7 /* NodesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodesView.swift; sourceTree = "<group>"; };
+		C1092083CE0F326EAAC3DB51 /* iClash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iClash.entitlements; sourceTree = "<group>"; };
+		C2EB2CFACE3BB40F4D26F278 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D33B698038F2264ACABDC1F2 /* LogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
+		EA5B32C655B04E418D631006 /* iClashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iClashApp.swift; sourceTree = "<group>"; };
+		FDFB0EE0D1D529D0E12FD76A /* NetworkExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = NetworkExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15526A8AA2AA20DB19403E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E36D9BB139F96C1CB2810E8 /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36AFE917E05593BFE73922F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6101F7733B1EBB4E8B834C4 /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29EFE956A8A455DE2B4BC8C6 /* iClash */ = {
+			isa = PBXGroup;
+			children = (
+				C1092083CE0F326EAAC3DB51 /* iClash.entitlements */,
+				239C7F5A8323DD0BA5B11E1B /* Info.plist */,
+				3E0544603DAD84DA741739DB /* App */,
+				2FBDDBD2957CB2A004DE22B8 /* Managers */,
+				91BC85C761E204FD5FD740E5 /* Views */,
+			);
+			path = iClash;
+			sourceTree = "<group>";
+		};
+		2FBDDBD2957CB2A004DE22B8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				80E93E808EAF15B45F7A484F /* ConfigManager.swift */,
+				494CB18F32192A8885F1F19B /* ProxyManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3E0544603DAD84DA741739DB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EA5B32C655B04E418D631006 /* iClashApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		579FEFE078A08E22543C5F27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				584E1CE0DACE4553B1687D0F /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91BC85C761E204FD5FD740E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				059B7EF7921EF7A5F1747D4E /* ConfigView.swift */,
+				C2EB2CFACE3BB40F4D26F278 /* ContentView.swift */,
+				13FA284C231050C75F913916 /* HomeView.swift */,
+				D33B698038F2264ACABDC1F2 /* LogsView.swift */,
+				B0BEA47C3145C4F1CC35A4E7 /* NodesView.swift */,
+				976B9815C475239FE9DD60B9 /* RulesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BEB469BA30F883822198D83C = {
+			isa = PBXGroup;
+			children = (
+				29EFE956A8A455DE2B4BC8C6 /* iClash */,
+				D2E0CB6C4F47638E03D06EE1 /* Models */,
+				CEF2A0941426221D69CA622F /* NetworkExtension */,
+				579FEFE078A08E22543C5F27 /* Frameworks */,
+				D9F06506862BC8813495D970 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF2A0941426221D69CA622F /* NetworkExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4862E8A57B215E8E33652AC1 /* iClashExtension.entitlements */,
+				056B22452B6F35D3D5771F00 /* Info.plist */,
+				56CD2A15DEEC204DBA13B146 /* NetworkExtension.entitlements */,
+				7187E783495CFCD48CA60032 /* PacketTunnelProvider.swift */,
+			);
+			name = NetworkExtension;
+			path = iClash/NetworkExtension;
+			sourceTree = "<group>";
+		};
+		D2E0CB6C4F47638E03D06EE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				405A7C4D66428D1A65C6650E /* ClashConfig.swift */,
+				A91FBE0D8826D8D599D9D7BA /* ProxyModels.swift */,
+			);
+			name = Models;
+			path = iClash/Models;
+			sourceTree = "<group>";
+		};
+		D9F06506862BC8813495D970 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				968917706253FC10F0CE4473 /* iClash.app */,
+				FDFB0EE0D1D529D0E12FD76A /* NetworkExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B8CF84A444629D250FFFA37 /* NetworkExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80968678AEB996DF0448B217 /* Build configuration list for PBXNativeTarget "NetworkExtension" */;
+			buildPhases = (
+				D168EDE19040E36FFD34D392 /* Sources */,
+				15526A8AA2AA20DB19403E48 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				467F67B67894D7FADBD27D9E /* PBXTargetDependency */,
+			);
+			name = NetworkExtension;
+			productName = NetworkExtension;
+			productReference = FDFB0EE0D1D529D0E12FD76A /* NetworkExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B118B54732EC30060B34BC09 /* iClash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA18F67CA990A35124A77AFE /* Build configuration list for PBXNativeTarget "iClash" */;
+			buildPhases = (
+				843DCA55D5A3E37BA4916329 /* Sources */,
+				36AFE917E05593BFE73922F3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iClash;
+			productName = iClash;
+			productReference = 968917706253FC10F0CE4473 /* iClash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD55E0EAA0D1AA129545829B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = E9716DBEA8803D0C3E48C524 /* Build configuration list for PBXProject "iClash" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = BEB469BA30F883822198D83C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B8CF84A444629D250FFFA37 /* NetworkExtension */,
+				B118B54732EC30060B34BC09 /* iClash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843DCA55D5A3E37BA4916329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499B1460955384F9FAF8D0B1 /* ClashConfig.swift in Sources */,
+				00F2D81BF79D0E0E8C89D8B1 /* ConfigManager.swift in Sources */,
+				C00A36A2FD6FED925F4DEF5C /* ConfigView.swift in Sources */,
+				82575C1A0208131A83E0688C /* ContentView.swift in Sources */,
+				C1C0EE6BC7A223B19734A3DA /* HomeView.swift in Sources */,
+				544DC1B3E539251A692EF066 /* LogsView.swift in Sources */,
+				6224C9AAA0C4D7FC15FF1334 /* NodesView.swift in Sources */,
+				2FBA8122A2B8A2773F12F928 /* ProxyManager.swift in Sources */,
+				4F678374EFD8FC713ED5A0FD /* ProxyModels.swift in Sources */,
+				33D064BCBD2B5D8CAD900290 /* RulesView.swift in Sources */,
+				1207DCC9F75D9ECC745BFD4C /* iClashApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D168EDE19040E36FFD34D392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE53D1BC2068EDF1F267EF26 /* ClashConfig.swift in Sources */,
+				9FF37DF57DC68CDCB8A1413B /* PacketTunnelProvider.swift in Sources */,
+				8AA04BA176F171D6561149BB /* ProxyModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		467F67B67894D7FADBD27D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B118B54732EC30060B34BC09 /* iClash */;
+			targetProxy = 493F3DC75133217507443160 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B947C34715A146FD56C5F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iClash/NetworkExtension/NetworkExtension.entitlements;
+				INFOPLIST_FILE = iClash/NetworkExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iclash.app.extension;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		570319EA0336A30ACD13A08F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8D5F80D2DC93936CB599010D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		95850298174CC1AB369CB8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iClash/NetworkExtension/NetworkExtension.entitlements;
+				INFOPLIST_FILE = iClash/NetworkExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iclash.app.extension;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B9A794916AEFCD2EC86FEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iClash/iClash.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6V5A7H83G6;
+				INFOPLIST_FILE = iClash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iclash.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4A8CC13FBB2E0F85B88CC97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iClash/iClash.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iClash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iclash.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80968678AEB996DF0448B217 /* Build configuration list for PBXNativeTarget "NetworkExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95850298174CC1AB369CB8A9 /* Debug */,
+				3B947C34715A146FD56C5F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DA18F67CA990A35124A77AFE /* Build configuration list for PBXNativeTarget "iClash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B9A794916AEFCD2EC86FEC6 /* Debug */,
+				D4A8CC13FBB2E0F85B88CC97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E9716DBEA8803D0C3E48C524 /* Build configuration list for PBXProject "iClash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570319EA0336A30ACD13A08F /* Debug */,
+				8D5F80D2DC93936CB599010D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD55E0EAA0D1AA129545829B /* Project object */;
+}

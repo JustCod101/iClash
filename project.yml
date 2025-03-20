@@ -1,0 +1,65 @@
+name: iClash
+options:
+  bundleIdPrefix: com.iclash
+  deploymentTarget:
+    iOS: 15.0
+packages: {}
+targets:
+  iClash:
+    type: application
+    platform: iOS
+    deploymentTarget: 15.0
+    sources:
+      - path: iClash
+        excludes:
+          - "NetworkExtension/**"
+    settings:
+      base:
+        INFOPLIST_FILE: iClash/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.iclash.app
+    dependencies:
+      - sdk: NetworkExtension.framework
+    info:
+      path: iClash/Info.plist
+      properties:
+        NSVPNUsageDescription: iClash needs to create a VPN connection to manage your proxy settings.
+    entitlements:
+      path: iClash/iClash.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.iclash.app
+        com.apple.developer.networking.vpn.api:
+          - allow-vpn
+          - allow-app-vpn
+        com.apple.developer.networking.networkextension:
+          - packet-tunnel-provider
+
+  NetworkExtension:
+    type: app-extension
+    platform: iOS
+    deploymentTarget: 15.0
+    sources:
+      - path: iClash/NetworkExtension
+      - path: iClash/Models
+    settings:
+      base:
+        INFOPLIST_FILE: iClash/NetworkExtension/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.iclash.app.extension
+    dependencies:
+      - sdk: NetworkExtension.framework
+      - target: iClash
+    info:
+      path: iClash/NetworkExtension/Info.plist
+      properties:
+        NSExtensionPointIdentifier: com.apple.networkextension.packet-tunnel
+        NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).PacketTunnelProvider
+    entitlements:
+      path: iClash/NetworkExtension/NetworkExtension.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.iclash.app
+        com.apple.developer.networking.vpn.api:
+          - allow-vpn
+          - allow-app-vpn
+        com.apple.developer.networking.networkextension:
+          - packet-tunnel-provider
